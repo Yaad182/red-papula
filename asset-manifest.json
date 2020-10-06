@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/red-papula/static/css/main.23e0b924.chunk.css",
+    "main.js": "/red-papula/static/js/main.db844cf9.chunk.js",
+    "main.js.map": "/red-papula/static/js/main.db844cf9.chunk.js.map",
+    "runtime-main.js": "/red-papula/static/js/runtime-main.aafbedac.js",
+    "runtime-main.js.map": "/red-papula/static/js/runtime-main.aafbedac.js.map",
+    "static/css/2.9d648c31.chunk.css": "/red-papula/static/css/2.9d648c31.chunk.css",
+    "static/js/2.98cfb292.chunk.js": "/red-papula/static/js/2.98cfb292.chunk.js",
+    "static/js/2.98cfb292.chunk.js.map": "/red-papula/static/js/2.98cfb292.chunk.js.map",
+    "index.html": "/red-papula/index.html",
+    "precache-manifest.1bea997a4478ea05e398bee26022755e.js": "/red-papula/precache-manifest.1bea997a4478ea05e398bee26022755e.js",
+    "service-worker.js": "/red-papula/service-worker.js",
+    "static/css/2.9d648c31.chunk.css.map": "/red-papula/static/css/2.9d648c31.chunk.css.map",
+    "static/css/main.23e0b924.chunk.css.map": "/red-papula/static/css/main.23e0b924.chunk.css.map",
+    "static/js/2.98cfb292.chunk.js.LICENSE.txt": "/red-papula/static/js/2.98cfb292.chunk.js.LICENSE.txt",
+    "static/media/background.png": "/red-papula/static/media/background.b0fab9e3.png",
+    "static/media/facebook.svg": "/red-papula/static/media/facebook.4c390eac.svg",
+    "static/media/hoger2.jpg": "/red-papula/static/media/hoger2.0f351c4d.jpg",
+    "static/media/instagram.svg": "/red-papula/static/media/instagram.d6810c7e.svg",
+    "static/media/logo.png": "/red-papula/static/media/logo.b6c654b7.png",
+    "static/media/messenger.svg": "/red-papula/static/media/messenger.b8bcd7a9.svg",
+    "static/media/slick-theme.css": "/red-papula/static/media/slick.f97e3bbf.svg",
+    "static/media/spotify.svg": "/red-papula/static/media/spotify.d930132e.svg",
+    "static/media/twitter.svg": "/red-papula/static/media/twitter.411d06b4.svg",
+    "static/media/youtube.svg": "/red-papula/static/media/youtube.c86e6ae6.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.aafbedac.js",
+    "static/css/2.9d648c31.chunk.css",
+    "static/js/2.98cfb292.chunk.js",
+    "static/css/main.23e0b924.chunk.css",
+    "static/js/main.db844cf9.chunk.js"
+  ]
+}
