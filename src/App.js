@@ -1,26 +1,46 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import styled from "styled-components";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import Header from "./component/Header";
+import Footer from "./component/Footer";
+import Slider from "./component/Slider";
+import About from "./component/About";
+
+const Root = styled.div``;
+
+export default class App extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      scrolled: false,
+    };
+    this.handleScroll = this.handleScroll.bind(this);
+  }
+
+  componentDidMount() {
+    window.addEventListener("scroll", this.handleScroll);
+  }
+
+  handleScroll() {
+    if (!this.state.scrolled) {
+      if (window.pageYOffset > 0) {
+        this.setState({ scrolled: true });
+      }
+    }
+    if (window.pageYOffset === 0) {
+      this.setState({ scrolled: false });
+    }
+  }
+
+  render() {
+    return (
+      <Root>
+        <Header scrolled={this.state.scrolled} />
+        <Slider />
+        <About />
+        {/* <Footer /> */}
+      </Root>
+    );
+  }
 }
-
-export default App;
