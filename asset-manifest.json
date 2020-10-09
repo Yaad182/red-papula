@@ -1,23 +1,26 @@
 {
   "files": {
-    "main.css": "/red-papula/static/css/main.2a95715b.chunk.css",
-    "main.js": "/red-papula/static/js/main.875fd770.chunk.js",
-    "main.js.map": "/red-papula/static/js/main.875fd770.chunk.js.map",
+    "main.css": "/red-papula/static/css/main.fabc17fe.chunk.css",
+    "main.js": "/red-papula/static/js/main.df11daec.chunk.js",
+    "main.js.map": "/red-papula/static/js/main.df11daec.chunk.js.map",
     "runtime-main.js": "/red-papula/static/js/runtime-main.aafbedac.js",
     "runtime-main.js.map": "/red-papula/static/js/runtime-main.aafbedac.js.map",
     "static/css/2.9d648c31.chunk.css": "/red-papula/static/css/2.9d648c31.chunk.css",
-    "static/js/2.80381bef.chunk.js": "/red-papula/static/js/2.80381bef.chunk.js",
-    "static/js/2.80381bef.chunk.js.map": "/red-papula/static/js/2.80381bef.chunk.js.map",
+    "static/js/2.bdeed68a.chunk.js": "/red-papula/static/js/2.bdeed68a.chunk.js",
+    "static/js/2.bdeed68a.chunk.js.map": "/red-papula/static/js/2.bdeed68a.chunk.js.map",
     "index.html": "/red-papula/index.html",
-    "precache-manifest.e72c140dbeea319af928bba6d0b4ca63.js": "/red-papula/precache-manifest.e72c140dbeea319af928bba6d0b4ca63.js",
+    "precache-manifest.9b72b1cd830b50b2ac6a047e3d29441f.js": "/red-papula/precache-manifest.9b72b1cd830b50b2ac6a047e3d29441f.js",
     "service-worker.js": "/red-papula/service-worker.js",
     "static/css/2.9d648c31.chunk.css.map": "/red-papula/static/css/2.9d648c31.chunk.css.map",
-    "static/css/main.2a95715b.chunk.css.map": "/red-papula/static/css/main.2a95715b.chunk.css.map",
-    "static/js/2.80381bef.chunk.js.LICENSE.txt": "/red-papula/static/js/2.80381bef.chunk.js.LICENSE.txt",
+    "static/css/main.fabc17fe.chunk.css.map": "/red-papula/static/css/main.fabc17fe.chunk.css.map",
+    "static/js/2.bdeed68a.chunk.js.LICENSE.txt": "/red-papula/static/js/2.bdeed68a.chunk.js.LICENSE.txt",
     "static/media/index.css": "/red-papula/static/media/MonumentExtended-Ultrabold.3b240783.otf",
     "static/media/facebook.svg": "/red-papula/static/media/facebook.4c390eac.svg",
     "static/media/girl-mobile.jpg": "/red-papula/static/media/girl-mobile.8d924e2a.jpg",
     "static/media/girl2.jpg": "/red-papula/static/media/girl2.638ca5e8.jpg",
+    "static/media/hoger-1.jpg": "/red-papula/static/media/hoger-1.37180a05.jpg",
+    "static/media/hoger-artist.jpg": "/red-papula/static/media/hoger-artist.e3635fee.jpg",
+    "static/media/hoger-mobile.jpg": "/red-papula/static/media/hoger-mobile.23962003.jpg",
     "static/media/instagram.svg": "/red-papula/static/media/instagram.d6810c7e.svg",
     "static/media/logo.png": "/red-papula/static/media/logo.b6c654b7.png",
     "static/media/messenger.svg": "/red-papula/static/media/messenger.b8bcd7a9.svg",
@@ -31,8 +34,8 @@
   "entrypoints": [
     "static/js/runtime-main.aafbedac.js",
     "static/css/2.9d648c31.chunk.css",
-    "static/js/2.80381bef.chunk.js",
-    "static/css/main.2a95715b.chunk.css",
-    "static/js/main.875fd770.chunk.js"
+    "static/js/2.bdeed68a.chunk.js",
+    "static/css/main.fabc17fe.chunk.css",
+    "static/js/main.df11daec.chunk.js"
   ]
 }

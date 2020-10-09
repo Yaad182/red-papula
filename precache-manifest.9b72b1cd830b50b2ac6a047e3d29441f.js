@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "68e824655e5e732ce7a2136602425bad",
+    "revision": "2c59789ae0e7508827c268cd811b7c5a",
     "url": "/red-papula/index.html"
   },
   {
-    "revision": "707e2c30a7e463cbbc58",
+    "revision": "dec3af2398c4c1b386d4",
     "url": "/red-papula/static/css/2.9d648c31.chunk.css"
   },
   {
-    "revision": "8382472be32ed2ad5cc9",
-    "url": "/red-papula/static/css/main.2a95715b.chunk.css"
+    "revision": "193c18258f14e6f5ac09",
+    "url": "/red-papula/static/css/main.fabc17fe.chunk.css"
   },
   {
-    "revision": "707e2c30a7e463cbbc58",
-    "url": "/red-papula/static/js/2.80381bef.chunk.js"
+    "revision": "dec3af2398c4c1b386d4",
+    "url": "/red-papula/static/js/2.bdeed68a.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/red-papula/static/js/2.80381bef.chunk.js.LICENSE.txt"
+    "url": "/red-papula/static/js/2.bdeed68a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8382472be32ed2ad5cc9",
-    "url": "/red-papula/static/js/main.875fd770.chunk.js"
+    "revision": "193c18258f14e6f5ac09",
+    "url": "/red-papula/static/js/main.df11daec.chunk.js"
   },
   {
     "revision": "f6027f72356753538928",
@@ -46,6 +46,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "638ca5e8384ff03442bf58666be55e56",
     "url": "/red-papula/static/media/girl2.638ca5e8.jpg"
+  },
+  {
+    "revision": "37180a05d06a000df8f6f08b3dab9388",
+    "url": "/red-papula/static/media/hoger-1.37180a05.jpg"
+  },
+  {
+    "revision": "e3635fee20e6fbbfa35e13847bd857a4",
+    "url": "/red-papula/static/media/hoger-artist.e3635fee.jpg"
+  },
+  {
+    "revision": "23962003d026170aea800bad44ddebf5",
+    "url": "/red-papula/static/media/hoger-mobile.23962003.jpg"
   },
   {
     "revision": "d6810c7e5816f760117dfaaf8df79620",
