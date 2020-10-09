@@ -12,6 +12,7 @@ import Naaz from "../assets/naaz-2.jpg"
 import NaazMobile from "../assets/naaz-mobile.jpg"
 import Girl from "../assets/girl2.jpg"
 import GirlMobile from "../assets/girl-mobile.jpg"
+import Hoger from "../assets/hoger-artist.jpg"
 
 const Root = styled.div`
   position: relative;
@@ -64,7 +65,14 @@ export default class Slider extends Component {
             <Image
               image={Girl}
               imageMobile={GirlMobile}
-              alt={"lol"}
+              alt={"Mia"}
+            />
+          </ImageContainer>
+          <ImageContainer>
+            <Image
+              image={Hoger}
+              imageMobile={GirlMobile}
+              alt={"Hoger"}
             />
           </ImageContainer>
         </Carousel>

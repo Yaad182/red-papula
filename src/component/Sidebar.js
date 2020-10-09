@@ -9,6 +9,7 @@ const Root = styled.div`
   width: 50%;
   background-color: black;
   transition: all ease-in-out 0.5s;
+  z-index: 200;
 `
 
 const ButtonContainer = styled.div`

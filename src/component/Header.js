@@ -4,6 +4,7 @@ import styled, { css } from "styled-components";
 import { HamburgerCollapse } from 'react-animated-burgers'
 
 import Logo from "../assets/logo.png";
+import { Link } from "react-router-dom";
 
 const Root = styled.div`
   position: fixed;
@@ -12,7 +13,7 @@ const Root = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  z-index: 10;
+  z-index: 201;
   transition: all 0.5s;
 
 
@@ -41,11 +42,12 @@ const ButtonsContainer = styled.div`
   justify-content: space-evenly;
 `;
 
-const Button = styled.a`
+const Button = styled(Link)`
   font-size: 1.2rem;
   color: black;
   font-weight: 500;
   transition: all 0.3s;
+  text-decoration: none;
 
   &:hover {
     color: #ba102d;
@@ -59,7 +61,6 @@ const Button = styled.a`
 `;
 
 const HamburgerContainer = styled.div`
-z-index: 200;
 
 @media only screen and (min-width: 768px) {
   display: none;
@@ -80,9 +81,10 @@ export default class Header extends Component {
       <Root scrolled={this.props.scrolled}>
         <Image src={Logo} />
         <ButtonsContainer>
-          <Button>ABOUT</Button>
-          <Button>OUR ROSTER</Button>
-          <Button>CONTACT</Button>
+          <Button to="/">HOME</Button>
+          <Button to="/about">ABOUT</Button>
+          <Button to="/our-roster">OUR ROSTER</Button>
+          <Button to="/contact">CONTACT</Button>
         </ButtonsContainer>
         <HamburgerContainer>
           <HamburgerCollapse isActive={this.props.menu} onClick={this.props.handleMenu}

@@ -16,6 +16,11 @@ const Root = styled.div`
   width: 5px;
   left: 5px;
   /* z-index: 1; */
+
+  @media only screen and (max-width: 768px) {
+    bottom: 20%;
+
+  }
 `;
 
 // const Icon = styled(ReactLogo)`

@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "http://Yaad182.github.io/red-papula",
   "dependencies": {
+    "@steveeeie/react-page-transition": "^1.2.0",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
@@ -11,8 +12,11 @@
     "react-animated-burgers": "^1.2.8",
     "react-dom": "^16.13.1",
     "react-pose": "^4.0.10",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
     "react-slick": "^0.27.1",
+    "react-transition-group": "^4.4.1",
     "slick-carousel": "^1.8.1",
     "styled-components": "^5.2.0"
   },
