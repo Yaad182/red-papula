@@ -2,11 +2,13 @@ import React, { Component } from "react";
 import styled from "styled-components";
 
 import Header from "./component/Header";
-import Footer from "./component/Footer";
 import Slider from "./component/Slider";
-import About from "./component/About";
+import Sidebar from "./component/Sidebar";
 
-const Root = styled.div``;
+const Root = styled.div`
+overflow: hidden;
+position: relative;
+`;
 
 export default class App extends Component {
   constructor(props) {
@@ -14,8 +16,10 @@ export default class App extends Component {
 
     this.state = {
       scrolled: false,
+      menu: false
     };
     this.handleScroll = this.handleScroll.bind(this);
+    this.handleMenu = this.handleMenu.bind(this)
   }
 
   componentDidMount() {
@@ -33,13 +37,16 @@ export default class App extends Component {
     }
   }
 
+  handleMenu() {
+    this.setState({menu: !this.state.menu})
+  }
+
   render() {
     return (
       <Root>
-        <Header scrolled={this.state.scrolled} />
+        <Header scrolled={this.state.scrolled} menu={this.state.menu} handleMenu={this.handleMenu} />
         <Slider />
-        <About />
-        {/* <Footer /> */}
+        <Sidebar menu={this.state.menu} handleMenu={this.handleMenu} />
       </Root>
     );
   }

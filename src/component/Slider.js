@@ -7,20 +7,30 @@ import Carousel from "react-slick";
 
 import Socials from "./Socials";
 
+// IMAGES
+import Naaz from "../assets/naaz-2.jpg"
+import NaazMobile from "../assets/naaz-mobile.jpg"
+import Girl from "../assets/girl2.jpg"
+import GirlMobile from "../assets/girl-mobile.jpg"
+
 const Root = styled.div`
-  height: 100vh;
   position: relative;
 `;
 
-const Image = styled.img`
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 1000;
-  height: 100vh;
-  width: auto !important;
-`;
+const Image = styled.div`
+background-image: url(${props => props.image});
+background-size: cover;
+background-position: center;
+width: 100%;
+height: 100%;
+
+@media only screen and (max-width: 768px) {
+  background-size: auto 100%;
+background-image: url(${props => props.imageMobile});
+
+  }
+`
+
 
 const settings = {
   infinite: true,
@@ -28,28 +38,32 @@ const settings = {
   autoplay: true,
   slidesToShow: 1,
   slidesToScroll: 1,
+  autoplaySpeed: 3000
 };
 
 const ImageContainer = styled.div`
   position: relative;
   height: 100vh;
   width: 100vw;
+  margin: 0;
 `;
 
 export default class Slider extends Component {
   render() {
     return (
       <Root>
-        <Carousel {...settings}>
+        <Carousel {...settings} >
           <ImageContainer>
             <Image
-              src="https://universalmusic.nl/wp-content/uploads/2019/04/Taylor-Swift.jpg"
-              alt={"lol"}
+              image={Naaz}
+              imageMobile={NaazMobile}
+              alt="Naaz"
             />
           </ImageContainer>
           <ImageContainer>
             <Image
-              src="https://universalmusic.nl/wp-content/uploads/2020/02/Remme.png"
+              image={Girl}
+              imageMobile={GirlMobile}
               alt={"lol"}
             />
           </ImageContainer>
