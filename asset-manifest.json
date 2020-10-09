@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/red-papula/static/css/main.8df9a8b6.chunk.css",
-    "main.js": "/red-papula/static/js/main.110cd03f.chunk.js",
-    "main.js.map": "/red-papula/static/js/main.110cd03f.chunk.js.map",
+    "main.js": "/red-papula/static/js/main.43e67dde.chunk.js",
+    "main.js.map": "/red-papula/static/js/main.43e67dde.chunk.js.map",
     "runtime-main.js": "/red-papula/static/js/runtime-main.aafbedac.js",
     "runtime-main.js.map": "/red-papula/static/js/runtime-main.aafbedac.js.map",
     "static/css/2.9d648c31.chunk.css": "/red-papula/static/css/2.9d648c31.chunk.css",
     "static/js/2.80381bef.chunk.js": "/red-papula/static/js/2.80381bef.chunk.js",
     "static/js/2.80381bef.chunk.js.map": "/red-papula/static/js/2.80381bef.chunk.js.map",
     "index.html": "/red-papula/index.html",
-    "precache-manifest.3a12937a4665126f2e349271b62fc030.js": "/red-papula/precache-manifest.3a12937a4665126f2e349271b62fc030.js",
+    "precache-manifest.5b38beff1291215c741445ca1fa569f8.js": "/red-papula/precache-manifest.5b38beff1291215c741445ca1fa569f8.js",
     "service-worker.js": "/red-papula/service-worker.js",
     "static/css/2.9d648c31.chunk.css.map": "/red-papula/static/css/2.9d648c31.chunk.css.map",
     "static/css/main.8df9a8b6.chunk.css.map": "/red-papula/static/css/main.8df9a8b6.chunk.css.map",
@@ -32,6 +32,6 @@
     "static/css/2.9d648c31.chunk.css",
     "static/js/2.80381bef.chunk.js",
     "static/css/main.8df9a8b6.chunk.css",
-    "static/js/main.110cd03f.chunk.js"
+    "static/js/main.43e67dde.chunk.js"
   ]
 }

@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "de187ca13183d02de2cb774ed666f8ad",
+    "revision": "dae6b2b73b4d3c5835a485dbdd4734eb",
     "url": "/red-papula/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/red-papula/static/css/2.9d648c31.chunk.css"
   },
   {
-    "revision": "97747608f99b20aaab7b",
+    "revision": "cbc9ffc3e52099d0d049",
     "url": "/red-papula/static/css/main.8df9a8b6.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/red-papula/static/js/2.80381bef.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "97747608f99b20aaab7b",
-    "url": "/red-papula/static/js/main.110cd03f.chunk.js"
+    "revision": "cbc9ffc3e52099d0d049",
+    "url": "/red-papula/static/js/main.43e67dde.chunk.js"
   },
   {
     "revision": "f6027f72356753538928",
