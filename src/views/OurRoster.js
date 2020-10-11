@@ -8,10 +8,13 @@ import Roster from "../component/Roster";
 
 const Root = styled.div`
   display: flex;
-  margin-top: 100px;
+  margin-top: 70px;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+
+  @media only screen and (max-width: 890px) {
+  }
 `;
 
 const Title = styled.h1``;
@@ -23,7 +26,8 @@ const RosterContainer = styled.div`
   width: 60%;
   justify-content: space-between;
   max-width: 1000px;
-  overflow: auto;
+  overflow-x: hidden;
+  overflow-y: auto;
 
   @media only screen and (max-width: 1380px) {
     width: 90%;

@@ -134,6 +134,7 @@ export default class Contact extends Component {
       subject: "",
       message: "",
       loading: false,
+      succes: false,
     };
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
@@ -169,7 +170,7 @@ export default class Contact extends Component {
           "user_RcLlYh5jUhsYr3cySJHNl"
         )
         .then(() => {
-          this.setState({ loading: false, error: false });
+          this.setState({ loading: false, error: false, succes: true });
         });
 
       console.log(`
@@ -183,7 +184,7 @@ export default class Contact extends Component {
       this.resetForm();
     } else {
       // Handle form validation failure
-      this.setState({ error: true, loading: false });
+      this.setState({ error: true, loading: false, succes: false });
       console.error("FORM INVALID - DISPLAY ERROR MESSAGE");
     }
   };
@@ -237,9 +238,15 @@ export default class Contact extends Component {
           {this.state.error && (
             <Error>ERROR: Make sure to fill in all the fields!</Error>
           )}
-          <Button type="submit">
-            {this.state.loading ? <Dots /> : "Submit"}
-          </Button>
+          {this.state.succes ? (
+            <Button type="submit" disabled>
+              Thank you!
+            </Button>
+          ) : (
+            <Button type="submit">
+              {this.state.loading ? <Dots /> : "Submit"}
+            </Button>
+          )}
         </FormContainer>
       </Root>
     );

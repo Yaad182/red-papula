@@ -17,9 +17,11 @@ const TextContainer = styled.div`
   flex-direction: column;
   width: 40%;
   margin-top: 100px;
-  overflow: auto;
+  overflow-x: hidden;
+  overflow-y: auto;
 
   @media only screen and (max-width: 768px) {
+    margin-top: 80px;
     width: 90%;
   }
 `;

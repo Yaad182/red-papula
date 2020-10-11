@@ -24,6 +24,7 @@ const Color = styled.div`
   opacity: ${(props) => (props.hover ? "40%" : "100%")};
   height: 100%;
   transition: all 0.5s ease-in-out;
+
   -webkit-clip-path: ${(props) =>
     !props.hover
       ? "polygon(0% 0%, 50% 0%, 100% 100%, 0% 100%)"
