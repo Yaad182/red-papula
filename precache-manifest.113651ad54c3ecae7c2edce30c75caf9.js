@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "864d511a460b44a2713aefaad1a6bf05",
+    "revision": "3ac2034eb7f0c5e3ebd5f46218f30600",
     "url": "/red-papula/index.html"
   },
   {
-    "revision": "dec3af2398c4c1b386d4",
-    "url": "/red-papula/static/css/2.9d648c31.chunk.css"
+    "revision": "15b6b1bbda92d279a43c",
+    "url": "/red-papula/static/css/2.66e07d13.chunk.css"
   },
   {
-    "revision": "35203c7ae8bd869c991d",
+    "revision": "782cde08e9956fe97a02",
     "url": "/red-papula/static/css/main.fabc17fe.chunk.css"
   },
   {
-    "revision": "dec3af2398c4c1b386d4",
-    "url": "/red-papula/static/js/2.bdeed68a.chunk.js"
+    "revision": "15b6b1bbda92d279a43c",
+    "url": "/red-papula/static/js/2.0c09bff4.chunk.js"
   },
   {
-    "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/red-papula/static/js/2.bdeed68a.chunk.js.LICENSE.txt"
+    "revision": "02319550b42b2562b0f0cbc36f2d31db",
+    "url": "/red-papula/static/js/2.0c09bff4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "35203c7ae8bd869c991d",
-    "url": "/red-papula/static/js/main.38aca6f7.chunk.js"
+    "revision": "782cde08e9956fe97a02",
+    "url": "/red-papula/static/js/main.76a95e0c.chunk.js"
   },
   {
     "revision": "f6027f72356753538928",
@@ -34,6 +34,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "3b24078346a6ae8b9caeca47834fcea9",
     "url": "/red-papula/static/media/MonumentExtended-Ultrabold.3b240783.otf"
+  },
+  {
+    "revision": "e36f7df26d4ab26d1398593a32b5d541",
+    "url": "/red-papula/static/media/contact.e36f7df2.jpg"
   },
   {
     "revision": "4c390eacd7482ab58ad2f74a722b845d",
