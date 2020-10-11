@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/red-papula/precache-manifest.9b72b1cd830b50b2ac6a047e3d29441f.js"
+  "/red-papula/precache-manifest.3b2d8ad5d7bbb7ef425e0ccb7f745233.js"
 );
 
 self.addEventListener('message', (event) => {
