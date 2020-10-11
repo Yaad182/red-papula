@@ -8,30 +8,31 @@ import Carousel from "react-slick";
 import Socials from "./Socials";
 
 // IMAGES
-import Naaz from "../assets/naaz-2.jpg"
-import NaazMobile from "../assets/naaz-mobile.jpg"
-import Girl from "../assets/girl2.jpg"
-import GirlMobile from "../assets/girl-mobile.jpg"
-import Hoger from "../assets/hoger-artist.jpg"
+import Naaz from "../assets/naaz-2.jpg";
+import NaazMobile from "../assets/naaz-mobile.jpg";
+import Girl from "../assets/girl2.jpg";
+import GirlMobile from "../assets/girl-mobile.jpg";
+import Hoger from "../assets/hoger-artist.jpg";
+import HogerMobile from "../assets/hoger-mobile.jpg";
 
 const Root = styled.div`
   position: relative;
 `;
 
 const Image = styled.div`
-background-image: url(${props => props.image});
-background-size: cover;
-background-position: center;
-width: 100%;
-height: 100%;
+  background-image: url(${(props) => props.image});
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
 
-@media only screen and (max-width: 768px) {
-  background-size: auto 100%;
-background-image: url(${props => props.imageMobile});
-
+  @media only screen and (max-width: 768px) {
+    background-size: auto 100%;
+    background-image: url(${(props) => props.imageMobile});
   }
-`
+`;
 
+const rand = Math.floor(Math.random() * 3); // random number
 
 const settings = {
   infinite: true,
@@ -39,7 +40,8 @@ const settings = {
   autoplay: true,
   slidesToShow: 1,
   slidesToScroll: 1,
-  autoplaySpeed: 3000
+  autoplaySpeed: 3000,
+  initialSlide: rand,
 };
 
 const ImageContainer = styled.div`
@@ -53,27 +55,15 @@ export default class Slider extends Component {
   render() {
     return (
       <Root>
-        <Carousel {...settings} >
+        <Carousel {...settings}>
           <ImageContainer>
-            <Image
-              image={Naaz}
-              imageMobile={NaazMobile}
-              alt="Naaz"
-            />
+            <Image image={Naaz} imageMobile={NaazMobile} alt="Naaz" />
           </ImageContainer>
           <ImageContainer>
-            <Image
-              image={Girl}
-              imageMobile={GirlMobile}
-              alt={"Mia"}
-            />
+            <Image image={Girl} imageMobile={GirlMobile} alt={"Mia"} />
           </ImageContainer>
           <ImageContainer>
-            <Image
-              image={Hoger}
-              imageMobile={GirlMobile}
-              alt={"Hoger"}
-            />
+            <Image image={Hoger} imageMobile={HogerMobile} alt={"Hoger"} />
           </ImageContainer>
         </Carousel>
         <Socials />

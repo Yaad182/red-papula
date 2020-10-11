@@ -15,11 +15,9 @@ const Root = styled.div`
   bottom: 5%;
   width: 5px;
   left: 5px;
-  /* z-index: 1; */
 
   @media only screen and (max-width: 768px) {
     bottom: 20%;
-
   }
 `;
 
@@ -140,13 +138,27 @@ export default class Socials extends Component {
   render() {
     return (
       <Root>
-        {/* <Icon fill="white" /> */}
-        <Facebook />
-        <Instagram />
-        <Messenger />
-        <Twitter />
-        <Spotify />
-        <Youtube />
+        <a href="https://www.instagram.com/redpapula" target="_blank">
+          <Instagram />
+        </a>
+        <a href="https://www.facebook.com/redpapula" target="_blank">
+          <Facebook />
+        </a>
+        <a href="https://www.twitter.com/redpapula" target="_blank">
+          <Twitter />
+        </a>
+        <a
+          href="https://open.spotify.com/playlist/18n28HnDHWEidFLw5rH8sd?si=EVcBK2pyQqq_dzQZMEmHJQ"
+          target="_blank"
+        >
+          <Spotify />
+        </a>
+        <a
+          href="https://www.youtube.com/channel/UCb2LBQr9ojb55n640rudUOQ?sub_confirmation=1"
+          target="_blank"
+        >
+          <Youtube />
+        </a>
       </Root>
     );
   }

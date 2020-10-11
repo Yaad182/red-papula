@@ -4,8 +4,7 @@ import styled from "styled-components";
 import Slider from "../component/Slider";
 
 const Root = styled.div`
-overflow: hidden;
-position: relative;
+  position: relative;
 `;
 
 export default class Home extends Component {
