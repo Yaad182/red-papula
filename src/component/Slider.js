@@ -42,6 +42,7 @@ const settings = {
   slidesToScroll: 1,
   autoplaySpeed: 3000,
   initialSlide: rand,
+  pauseOnHover: false,
 };
 
 const ImageContainer = styled.div`

@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 const Root = styled.div`
   position: absolute;
   top: 0;
-  right: ${(props) => (props.menu ? "0" : "-50%")};
+  right: ${(props) => (props.animate ? "0" : "-50%")};
   height: 100%;
   width: 50%;
   background-color: black;

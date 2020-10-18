@@ -15,19 +15,36 @@ export default class App extends Component {
 
     this.state = {
       menu: false,
+      animate: false,
     };
     this.handleMenu = this.handleMenu.bind(this);
   }
 
   handleMenu() {
-    this.setState({ menu: !this.state.menu });
+    if (this.state.menu) {
+      this.setState({ animate: false });
+      setTimeout(() => this.setState({ menu: false }), 500);
+    } else {
+      this.setState({ menu: true });
+      setTimeout(() => this.setState({ animate: true }), 1);
+    }
   }
 
   render() {
     return (
       <BrowserRouter>
-        <Header menu={this.state.menu} handleMenu={this.handleMenu} />
-        <Sidebar menu={this.state.menu} handleMenu={this.handleMenu} />
+        <Header
+          menu={this.state.menu}
+          handleMenu={this.handleMenu}
+          animate={this.state.animate}
+        />
+        {this.state.menu && (
+          <Sidebar
+            menu={this.state.menu}
+            handleMenu={this.handleMenu}
+            animate={this.state.animate}
+          />
+        )}
         <Route
           render={({ location }) => {
             return (
