@@ -15,13 +15,14 @@ const Root = styled.div`
 const TextContainer = styled.div`
   display: flex;
   flex-direction: column;
+  justify-content: center;
   width: 40%;
-  margin-top: 100px;
+  height: 90%;
   overflow-x: hidden;
   overflow-y: auto;
 
   @media only screen and (max-width: 768px) {
-    margin-top: 80px;
+    /* margin-top: 80px; */
     width: 90%;
   }
 `;
@@ -44,23 +45,6 @@ export default class About extends Component {
           <Text>
             Red Papula is a young independent Record Label, Publishing Company
             and Artists Management founded in 2018.
-          </Text>
-          <Text>
-            Together in partnership with Sony / ATV Music Publishing, we support
-            and develop songwriters and producers. This is where things behind
-            the music happen. Our goal is to write and produce your next
-            favorite song performed by your favorite artists.
-          </Text>
-          <Text>
-            Together in partnership with Warner Music / ADA, we support,
-            develop, distribute and promote artists.This is where we focus on
-            the music of tomorrow. It's important to distinguish yourself from
-            others and we believe that we do so by treating everybody as family
-            and focus on fairness.
-          </Text>
-          <Text>
-            At Red Papula everybody get's paid. Even songwriters (subtle wink to
-            the rest of the music industry) ;).
           </Text>
           <Text>
             Papula comes from the Kurdisch language, which means "butterfly".
